@@ -8,7 +8,7 @@ class Character:
         self.hair = hair
         self.spec = spec
     def char(self):
-        print('Ваш персонаж:\n', 'Имя:', self.name,',', 'Расса:', self.race, ',', 'Класс: ', self.clas, ',', 'Пол: ', self.gender, ',', 'Цвет волос: ', self.hair, ',', 'Спек: ', self.spec)
+        print('Ваш персонаж:\n', 'Имя:', self.name, ',', 'Расса:', self.race, ',', 'Класс: ', self.clas, ',', 'Пол: ', self.gender, ',', 'Цвет волос: ', self.hair, ',', 'Спек: ', self.spec)
 pers1 = Character('Ри', 'человек', 'прист', 'женский', 'блонд', 'холи')
 pers2 = Character('Тикимикк', 'орк', 'воин', 'мужской', 'черный', 'армс')
 pers3 = Character('Аюми', 'эльф крови', 'палладин', 'женский', 'рыжий', 'холи')
