@@ -3,10 +3,13 @@ from abc import abstractmethod
 class Animal:
     def __init__(self):
         pass
+    @abstractmethod
     def clasvid(self):
         pass
+    @abstractmethod
     def agepopulation(self):
         pass
+    @abstractmethod
     def rar(self):
         pass
 class Fish(Animal):
